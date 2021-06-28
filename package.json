@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.9.0",
+    "weather-js": "^2.0.0"
+  },
+  "scripts": {
+    "start": "functions-framework --target=weather"
+  }
+}
