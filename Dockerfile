@@ -1,6 +1,6 @@
 # Use the official Node.js 10 image.
 # https://hub.docker.com/_/node
-FROM node:10
+FROM node:10-alpine3.11
 # Create and change to the app directory.
 WORKDIR /usr/src/app
 # Copy application dependency manifests to the container image.
