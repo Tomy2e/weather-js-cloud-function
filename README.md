@@ -16,3 +16,9 @@ npm run
 ```console
 docker build -t weather-js .
 ```
+
+## Deploying in Knative
+
+```console
+kn service create weather --image tomy2e/weather-js-cloud-function
+```
